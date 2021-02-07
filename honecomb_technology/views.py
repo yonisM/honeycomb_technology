@@ -24,6 +24,16 @@ def contact():
         title='Contact | Honeycomb Technology'
     )
 
+
+@app.route('/services-we-provide')
+def services():
+    """Renders the about page."""
+    return render_template(
+        'services-we-provide.html',
+        title='Services | Honeycomb Technology'
+    )
+
+
 @app.route('/about')
 def about():
     """Renders the about page."""
@@ -34,10 +44,3 @@ def about():
 
 
 
-@app.route('/services')
-def services():
-    """Renders the about page."""
-    return render_template(
-        'services.html',
-        title='Services | Honeycomb Technology'
-    )
