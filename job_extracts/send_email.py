@@ -21,7 +21,7 @@ def extract_send():
     
     #####################Send Email ########################
     fromaddr="yonis838@googlemail.com" #Person sending in the email. 
-    sendto =['yonis.mohamoud@live.co.uk','yonis838@googlemail.com'] #List of email address you will be sending the email to
+    sendto =['yonis838@googlemail.com','yakubmohamoud@honeycomb-technology.co.uk'] #List of email address you will be sending the email to
     password = 'odqhescsdicrxbdx' #create an APP Password with Google 
     
     
