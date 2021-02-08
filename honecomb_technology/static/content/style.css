@@ -525,10 +525,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*-------------------------------------------------
 Inner Banner
 ---------------------------------------------------*/
-#innerBanner{
-	padding: 138px 0 64px;
-	text-align:center;
-	background: yellow;
+#innerBanner {
+    padding: 0px 0 64px;
+    text-align: center;
+
 }
 #innerBanner h2{
 	color:black;
