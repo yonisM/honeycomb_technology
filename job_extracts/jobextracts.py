@@ -2,11 +2,12 @@
 
 from reed import ReedClient
 import pandas as pd
+import os
 
 
 def job_extraction():
 
-    YOUR_API_KEY = "16a21e02-a94e-4a30-8d1c-8497a7cb43d2"
+    YOUR_API_KEY = os.environ['YOUR_API_KEY']
     
     client = ReedClient(api_key=YOUR_API_KEY)
     

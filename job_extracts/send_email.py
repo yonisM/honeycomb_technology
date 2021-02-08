@@ -9,11 +9,13 @@ from email.mime.text import MIMEText
 from email import encoders
 from datetime import datetime
 from jobextracts import job_extraction
-
+import os
 
 
 def extract_send():
 
+    
+    
     job_extraction()
     
     reporting_day = datetime.strftime(datetime.now(), '%d/%m/%Y')
@@ -22,7 +24,7 @@ def extract_send():
     #####################Send Email ########################
     fromaddr="yonis838@googlemail.com" #Person sending in the email. 
     sendto =['yonis838@googlemail.com','yakubmohamoud@honeycomb-technology.co.uk'] #List of email address you will be sending the email to
-    password = 'odqhescsdicrxbdx' #create an APP Password with Google 
+    password = os.environ['password'] #create an APP Password with Google 
     
     
     msg = MIMEMultipart()
