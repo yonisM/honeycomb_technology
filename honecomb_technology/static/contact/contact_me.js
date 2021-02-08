@@ -45,7 +45,7 @@ $(function() {
  		 $('#success').html("<div class='alert alert-danger'>");
             	$('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             	 .append( "</button>");
-            	$('#success > .alert-danger').append("<strong>Sorry "+firstName+" there is a technical issue...</strong> Please email me directly to <a href='mailto:contact@honeycomb-technology.co.uk?Subject=Message_Me from query from Honeycomb technology'>contact@honeycomb-technology.co.uk</a> ? Sorry for the inconvenience!");
+            	$('#success > .alert-danger').append("<strong>Sorry "+firstName+" there is a technical issue...</strong> Could you please email me directly at <a href='mailto:contact@honeycomb-technology.co.uk?Subject=Query for Honeycomb technology'>contact@honeycomb-technology.co.uk</a> ? Sorry for the inconvenience caused!");
  	        $('#success > .alert-danger').append('</div>');
  		//clear all fields
  		$('#contactForm').trigger("reset");
