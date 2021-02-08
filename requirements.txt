@@ -10,3 +10,4 @@ Werkzeug==1.0.1
 WTForms==2.3.3
 psycopg2-binary==2.8.6
 boto3==1.16.18
+schedule==1.0.0
