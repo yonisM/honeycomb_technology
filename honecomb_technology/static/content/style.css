@@ -54,6 +54,20 @@ h1, h2, h3, h4, h5, h6 {
   transition: background 0.5s;
 }
 
+
+
+.card {
+    border: 2px solid grey;
+    margin-bottom: 30px
+}
+
+
+
+
+
+
+
+
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
@@ -135,7 +149,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #header #logo h1 {
   font-size: 28px;
-  margin: 6px 0 0 0;
+  margin: 0 0 0 0;
   padding: 0;
   line-height: 1;
   font-family: "Montserrat", sans-serif;
@@ -176,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 74px;
   }
   #header #logo h1 {
-    font-size: 34px;
+    font-size: 18px;
   }
   #header #logo img {
     max-height: 40px;
@@ -192,7 +206,7 @@ h1, h2, h3, h4, h5, h6 {
     background: url(../img/intro-carousel/banner-yellow.png) center bottom no-repeat;
     background-size: cover;
     padding: 200px 0 120px 0;
-	top:0px;
+	top:-25px;
 }
 #hero .hero-banner {
     width: 50%;
@@ -219,10 +233,29 @@ h1, h2, h3, h4, h5, h6 {
 #hero .hero-content h2 span {
   color: black;
   text-align: right;
-  font-size: 66px;
+  font-size: 30px;
   text-transform: uppercase;
   font-weight: 700;
 }
+
+
+
+@media (max-width: 414px) {
+
+
+    #hero .hero-content h2 span {
+        color: black;
+        text-align: right;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+}
+
+
+
+
 
 @media (max-width: 767px) {
   #hero .hero-content h2 {
@@ -435,6 +468,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
   #mobile-nav-toggle {
     display: inline;
+    margin-top: 37px
   }
 }
 

@@ -1,4 +1,5 @@
-{% extends "layout.html" %}
+﻿{% extends "layout.html" %}
+{% set active_page = "home" %}
 
 {% block content %}
 
@@ -14,9 +15,9 @@
         </div>
 
         <div class="hero-content">
-            <h2>We are more than just an IT recruitement and <br> consultancy company.  We are commited <br>to being the fastest way to unlocking <br>your full potential.</h2>
+            <h2><span>A Software Developer</span> <br> with his own Software Development Agency.</h2>
             <div>
-                <a href="contact" class="btn-banner">Contact us today</a>
+                <a href="contact" class="btn-banner">Contact me today</a>
             </div>
         </div>
 
@@ -28,64 +29,52 @@
     <!--==========================
       About Section
     ============================-->
-    <section id="about" class="wow fadeInUp">
+    <section id="call-to-action" class="wow fadeInUp">
         <div class="container">
-            <div class="section-header">
-                <h2>Welcome</h2>
-                <p>Honeycomb Technology is an IT recruitment and consultancy company to connect talented IT professionals with companies that are looking to build or maintain their IT solutions.  </p>
-            </div>
             <div class="row">
-                <div class="col-lg-6 about-img">
-                    <img src="static/img/8.svg" alt="">
-                </div>
-
-                <div class="col-lg-6 content">
-                    <h2>How we will help you</h2>
-
-
-                    <p>Honeycomb Technology is committed to helping businesses find right IT solutions to fulfil their goals and ambitions. We work with countless IT professional ranging from: </p>
-                    <ul>
-                        <li><i class="icon ion-ios-checkmark-outline"></i> IT Technical Managers.</li>
-                        <li><i class="icon ion-ios-checkmark-outline"></i> IT Project Managers.</li>
-                        <li><i class="icon ion-ios-checkmark-outline"></i> Software Developers (Java/Python/C/C#/C++/Matlab).</li>
-                        <li><i class="icon ion-ios-checkmark-outline"></i> Front End Developers</li>
-                        <li><i class="icon ion-ios-checkmark-outline"></i> Business Intelligence (BI) Developers</li>
-                        <li><i class="icon ion-ios-checkmark-outline"></i> Scrum Master</li>
-                        <li><i class="icon ion-ios-checkmark-outline"></i> Software and User Acceptance Testers</li>
-                        <li><i class="icon ion-ios-checkmark-outline"></i> DevOps Engineers </li>
-
-
-                    </ul>
+                <div class="col-lg-12 text-center">
+                    <h3 class="cta-title">Welcome to Honeycomb Technology</h3>
+                    <p class="cta-text">Honeycomb Technology is a software development agency that has been created to assist organisations to get access to some of the the best Software Developers in the industry. My experience as Software Developer as well as a Product Owner has shown me that there is a major gap that needs bridging between what the business are asking for versus and what the Developers are providing. </p>
+                    <p class="cta-text">My job is to help your organisation make as much money as it possibly can by ensuring the systems that are built for you are exactly as envisioned as well as help you find opportunities that will take your business to the next level. . </p>
+                    <p class="cta-text">Whether you are startup or Fortune 500 company, I am here to help you achieve your goals and ambitions. Simply gives us a call and I will get in touch with you as soon as possible. </p>
                 </div>
             </div>
 
         </div>
-    </section><!-- #about -->
+    </section><!-- #call-to-action -->
+    <!-- #about -->
     <!--==========================
       Services Section
     ============================-->
     <section id="services">
         <div class="container">
             <div class="section-header">
-                <h2>Our Services</h2>
-                <p>Honeycomb Technology is the best placed recruitment and consultancy company to provide you resources you need to acheive your goals and visions.</p>
+                <h2>My Services</h2>
             </div>
 
             <div class="row">
 
-                <div class="col-lg-6">
+                <div class="col-sm-4">
                     <div class="box wow fadeInLeft">
                         <div class="icon svgImg"><img src="static/img/7.svg" alt=""></div>
-                        <h4 class="title"><a href="">Recruitment</a></h4>
-                        <p class="description">Finding the right IT professional to fill part-time/full-time/ and temporary positions can be a very time consuming and expensive process. Honeycomb Technology is here to help you bridge that gap.</p>
+                        <h4 class="title"><a href="">Find Software Developers</a></h4>
+                        <p class="description">Whether you are looking for Software Developer to fill a Contracting or Full-Time role, I will help you find the perfect candidate.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-6">
+                <div class="col-sm-4">
                     <div class="box wow fadeInRight">
-                        <div class="icon svgImg"><img src="static/img/3.svg" alt=""></div>
-                        <h4 class="title"><a href="">Consulting</a></h4>
-                        <p class="description">Honeycomb Technology are fully equipped with provide you independent, specalist advice in implementation and enhancement of IT solutions for organisations operating across many industries. </p>
+                        <div class="icon svgImg"><img src="static/img/1.svg" alt=""></div>
+                        <h4 class="title"><a href="">Build your IT solution for you</a></h4>
+                        <p class="description">Whether you need a new functionality, Website, app, or software application, I can help you build it. </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="box wow fadeInRight">
+                        <div class="icon svgImg"><img src="static/img/2.svg" alt=""></div>
+                        <h4 class="title"><a href="">Maintain your IT solution for you</a></h4>
+                        <p class="description">If you already have an IT solution but you need it to be maintained, I am here to help. </p>
                     </div>
                 </div>
 
