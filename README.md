@@ -1,25 +1,25 @@
 # Honeycomb Technology website
 
-The [Honeycomb technology website](https://www.honeycomb-technology.co.uk/) was created using the Python Library Flask and has been deployed to Heroku. 
-This page will explain how to get the [Honeycomb technology website](https://www.honeycomb-technology.co.uk/) and how to deploy the changes onto Heroku 
+The [Honeycomb technology website](https://www.honeycomb-technology.co.uk/) was created using the Python Library Flask and is currently hosted on Heroku. 
+This page will explain how to get the [Honeycomb technology website](https://www.honeycomb-technology.co.uk/) to run locally on your computer/laptop and how to deploy your changes onto Heroku. 
 
 ## Step 1 - Install Anaconda 
 The easiest way to install initial python packages is by downloading the [Anaconda's data science toolkit](https://www.anaconda.com/products/individual) 
 
 
 ## Step 2 - Pull the files from this repository locally
-You will need to pull this repository on your computer/laptop. The easiest way to do that is by navigating to a directory of your choice the running the command 
+You will need to pull the files in this repository on your computer/laptop. The easiest way to do that is by navigating to a directory of your choice the running the command 
 
 ```bash
 git pull https://github.com/yonisM/honeycomb_technology.git
 ```
 
-if you don't have git on your computer/laptop, the command above will not run. You can [download it very easily from the git website](https://git-scm.com/downloads)
+If you don't have git on your computer/laptop, the command above will not run. You can [download it very easily from the git website](https://git-scm.com/downloads)
 
 
 ## Step 3 - Download the appropriate Python Packages
 
-Once you have pulled the repository locally, on your command line, navigate to the directory that contains the file **requirements.txt**. This file contains all the Python packages you need run the Flask application locally. 
+Once you have pulled the files in this repository locally, on your command line, navigate to the directory that contains the file **requirements.txt**. This file contains all the Python packages you need run the Flask application locally. 
 To download all the Python packages from the **requirements.txt**, run the command below:
 
 ```bash
