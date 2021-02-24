@@ -28,6 +28,23 @@ a:hover, a:active, a:focus {
   text-decoration: none;
 }
 
+.items {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 10px
+}
+
+.slick-slide {
+    margin: 10px;
+}
+
+.slick-slide img {
+    width: 100%;
+    border: 0px solid #fff
+}
+
+
+
 p {
   padding: 0;
   margin: 0 0 30px 0;
@@ -470,6 +487,12 @@ h1, h2, h3, h4, h5, h6 {
     display: inline;
     margin-top: 20px
   }
+
+  .main-image {
+      visibility:hidden
+  }
+
+
 }
 
 /* Mobile Nav Styling */

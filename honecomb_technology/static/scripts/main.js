@@ -13,6 +13,8 @@ jQuery(document).ready(function($) {
         }, 1500, 'easeInOutExpo');
         return false;
     });
+
+ 
  
     $("#header").sticky({
         topSpacing: 0,

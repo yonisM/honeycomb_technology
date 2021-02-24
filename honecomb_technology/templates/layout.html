@@ -23,6 +23,14 @@ License: https://webthemez.com/license
     <!-- Bootstrap CSS File -->
     <link href="static/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Slick Slider -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="static/content/slick.css" />
+
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+
     <!-- Libraries CSS Files -->
     <link href="static/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="static/lib/animate/animate.min.css" rel="stylesheet">
@@ -58,10 +66,8 @@ License: https://webthemez.com/license
             </nav><!-- #nav-menu-container -->
         </div>
     </header><!-- #header -->
+    {% block content %}{% endblock %}
 
-    
-        {% block content %}{% endblock %}
-    
 
 
     <!--==========================
@@ -89,9 +95,15 @@ License: https://webthemez.com/license
     <script src="static/lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="static/lib/magnific-popup/magnific-popup.min.js"></script>
     <script src="static/lib/sticky/sticky.js"></script>
+
+    <script src="static/scripts/slider.js"></script>
+    <script src="static/scripts/main.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
     <script src="static/contact/jqBootstrapValidation.js"></script>
     <script src="static/contact/contact_me.js"></script>
-    <script src="static/scripts/main.js"></script>
 
 </body>
 </html>
