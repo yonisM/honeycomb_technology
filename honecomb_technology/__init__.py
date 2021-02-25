@@ -8,22 +8,13 @@ from flask_talisman import Talisman
 app = Flask(__name__)
 
 csp = {
-    'default-src': [
-        '\'self\'',
-        '*stackpath.bootstrapcdn.com*',
-        '*code.jquery.com*',
-        '*cdn.jsdelivr.net*',
-        '*fonts.googleapis.com*',
-        '*cdn.jsdelivr.net*'
-    ],
-    'script-src':[ 
-      '\'self\'',
-              '*stackpath.bootstrapcdn.com*',
-        '*code.jquery.com*',
-        '*cdn.jsdelivr.net*',
-        '*fonts.googleapis.com*',
-        '*cdn.jsdelivr.net*'
-        ]
+    'default-src':'*' ,
+    'script-src':'*',
+    'style-src':'*',
+    'img-src':'*'
+
+
+
 }
 
 talisman = Talisman(app, content_security_policy=csp)
