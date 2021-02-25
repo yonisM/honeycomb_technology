@@ -15,7 +15,8 @@ csp = {
         '*cdn.jsdelivr.net',
         '*fonts.googleapis.com',
         '*cdn.jsdelivr.net'
-    ]
+    ],
+    'script-src': '\'self\'',
 
 }
 
