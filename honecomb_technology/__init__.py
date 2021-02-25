@@ -10,11 +10,11 @@ app = Flask(__name__)
 csp = {
     'default-src': [
         '\'self\'',
-        '\'unsafe-inline\'',
-        'stackpath.bootstrapcdn.com',
-        'code.jquery.com',
-        'cdn.jsdelivr.net',
-        'fonts.googleapis.com'
+        '*stackpath.bootstrapcdn.com',
+        '*code.jquery.com',
+        '*cdn.jsdelivr.net',
+        '*fonts.googleapis.com',
+        '*cdn.jsdelivr.net'
     ]
 
 Talisman(app, content_security_policy=csp)

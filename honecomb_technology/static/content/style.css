@@ -54,7 +54,7 @@ a:hover, a:active, a:focus {
 }
 
 .technology-section {
-    background: url(../static/img/intro-carousel/banner-yellow.png) center bottom no-repeat;
+    background: url(../img/intro-carousel/banner-yellow.png) center bottom no-repeat;
     background-size: cover;
     padding: 30 30 30 30
 }
