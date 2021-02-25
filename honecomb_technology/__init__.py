@@ -23,6 +23,7 @@ csp = {
         '*cdn.jsdelivr.net*',
         '*fonts.googleapis.com*',
         '*cdn.jsdelivr.net*'
+        ]
 }
 
 talisman = Talisman(app, content_security_policy=csp)
