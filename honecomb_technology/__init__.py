@@ -9,14 +9,20 @@ app = Flask(__name__)
 
 csp = {
     'default-src': [
+        '\'self\'',
         '*stackpath.bootstrapcdn.com*',
         '*code.jquery.com*',
         '*cdn.jsdelivr.net*',
         '*fonts.googleapis.com*',
         '*cdn.jsdelivr.net*'
     ],
-    'script-src': '\'self\'',
-
+    'script-src':[ 
+      '\'self\'',
+              '*stackpath.bootstrapcdn.com*',
+        '*code.jquery.com*',
+        '*cdn.jsdelivr.net*',
+        '*fonts.googleapis.com*',
+        '*cdn.jsdelivr.net*'
 }
 
 talisman = Talisman(app, content_security_policy=csp)
