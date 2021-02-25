@@ -17,6 +17,6 @@ csp = {
         '*cdn.jsdelivr.net'
     ]
 
-Talisman(app, content_security_policy=csp)
+talisman = Talisman(app, content_security_policy=csp)
 
 import honecomb_technology.views
